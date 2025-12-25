@@ -23,7 +23,6 @@ I'm David — a Certified Ethical Hacker (CEH) focused on offensive and defensiv
 - Vulnerability assessment & risk triage
 - Security automation and repeatable testing workflows
 
-(If you want these listed as icons/badges I can add them.)
 
 ---
 
@@ -39,48 +38,21 @@ I'm David — a Certified Ethical Hacker (CEH) focused on offensive and defensiv
 ---
 
 ## 🌟 Featured Projects
-I don't yet have project details from you. Add 2–4 featured projects (repo URL + one-line description + tech/role + highlight) and I'll convert them into polished project cards here.
 
-Example format you can paste:
-- https://github.com/your/repo — IoT pentest toolkit — Tools: Nmap, Python — Highlight: automated discovery reduced triage time by 40%
+- https://github.com/your/Cryp-Trus — IoT pentest toolkit — Tools: Nmap, Python — Highlight: automated discovery reduced triage time by 40%
 
----
-
-## 📈 GitHub Stats
-Would you like dynamic GitHub stat cards (contribution streak, top languages)? If yes, tell me your GitHub username (if different than your display name) and preferred theme (dark, light, radical, merko, etc.) and I’ll include the images.
 
 ---
 
 ## 📫 Contact & Socials
 Open to work: Available Soon  
-Please provide which links you want shown:
-- Email:
-- Website:
-- LinkedIn:
-- Twitter / Mastodon:
-- Resume link:
-
-Example contact line: Email: david@example.com — LinkedIn: https://linkedin.com/in/david
+- Phone: +260951701106
+- Email: sosnacdavid@gmail.com
+- Facebook: David Sosnac 
 
 ---
 
-## ✅ What I added
-- Clean headline and elevator bio tuned to a security-focused profile
-- CEH title and a skills-first layout for recruiters and collaborators
-- Placeholders for projects, tools, and GitHub stats so we can add dynamic widgets
+
 
 ---
 
-If you're ready, provide any of the following to finalize and further personalize the README:
-- Pronouns (optional)
-- Short bio tweak (if you want different wording)
-- Detailed top skills (add any missing tools or specialties)
-- 2–4 featured projects (repo URL + one-line description + tech stack + highlight)
-- Social links (Email, Website, LinkedIn, Twitter, Mastodon)
-- GitHub username (if different) and preferred theme for stats images
-- Profile picture URL or banner image (optional)
-- Tone preference: Professional / Friendly / Witty / Minimal (optional)
-- Any certifications/badges besides CEH to display
-- Whether you want me to format and push this README to a repo for you (provide repo owner/name and confirm)
-
-Reply with the items you want to add or the word “Use as-is” and I’ll produce the final README.md (or commit it if you want me to push it to a repository).
