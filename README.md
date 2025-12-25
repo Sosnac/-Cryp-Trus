@@ -39,7 +39,7 @@ I'm David — a Certified Ethical Hacker (CEH) focused on offensive and defensiv
 
 ## 🌟 Featured Projects
 
-- https://github.com/your/Cryp-Trus — IoT pentest toolkit — Tools: Nmap, Python — Highlight: automated discovery reduced triage time by 40%
+- https://github.com/-Cryp-Trus — IoT pentest toolkit — Tools: Nmap, Python — Highlight: automated discovery reduced triage time by 40%
 
 
 ---
