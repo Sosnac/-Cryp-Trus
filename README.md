@@ -19,7 +19,7 @@ I'm David — a Certified Ethical Hacker (CEH) focused on offensive and defensiv
 ## 🛠️ Top Skills
 - Offensive Security (pentesting, exploitation, red teaming)
 - Defensive Security (hardening, incident response guidance)
-- Security tooling: Nmap, (others you use: e.g., Metasploit, Burp Suite, Wireshark)
+- Security tooling: Nmap, Metasploit, Burp Suite, Wireshark)
 - Vulnerability assessment & risk triage
 - Security automation and repeatable testing workflows
 
@@ -33,7 +33,6 @@ I'm David — a Certified Ethical Hacker (CEH) focused on offensive and defensiv
 - Logging & detection: ELK/PL, SIEM basics
 - Containers & infra: Docker, common cloud security considerations
 
-(Add or remove tools to match your exact toolkit.)
 
 ---
 
