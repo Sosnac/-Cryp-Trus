@@ -1,0 +1,37 @@
+import json
+import vulners
+
+# Initialize the API (Get a free key at vulners.com)
+vulners_api = vulners.Vulners(api_key="YOUR_API_KEY_HERE")
+
+def check_vulnerabilities(json_file):
+    with open(json_file, 'r') as f:
+        scan_data = json.load(f)
+
+    print(f"--- Cryp-Trus Vulnerability Analysis ---")
+    
+    for host in scan_data:
+        print(f"\n[*] Auditing Host: {host['ip']}")
+        
+        for proto in host['protocols']:
+            for port_info in host['protocols'][proto]:
+                # Construct a search query based on service name and version
+                service = port_info['name']
+                version = port_info['version']
+                
+                if version:
+                    query = f"{service} {version}"
+                    print(f"    [>] Searching exploits for: {query}...")
+                    
+                    # Fetch vulnerabilities
+                    results = vulners_api.search(query, limit=3)
+                    
+                    if results:
+                        for vuln in results:
+                            print(f"    [!] FOUND: {vuln['title']}")
+                            print(f"        Link: https://vulners.com/cve/{vuln['id']}")
+                    else:
+                        print(f"    [+] No immediate exploits found for {service}.")
+
+if __name__ == "__main__":
+    check_vulnerabilities('cryp_trus_results.json')
