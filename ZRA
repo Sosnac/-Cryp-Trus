@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZRA Press Statement - Cigarette Seizure</title>
+    <style>
+        /* --- General Page Styles (Screen) --- */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        /* --- The Main Card Container --- */
+        .press-release-card {
+            background-color: #ffffff;
+            max-width: 700px;
+            width: 100%;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            /* ZRA Brand Colors: Green top border */
+            border-top: 6px solid #006400; 
+            position: relative;
+        }
+
+        /* --- Print Button Styles --- */
+        .print-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 8px 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #333;
+            transition: background 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .print-btn:hover {
+            background-color: #e0e0e0;
+            border-color: #999;
+        }
+
+        /* --- Header Section --- */
+        header {
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+            /* Flexbox to arrange Logo and Category Tag */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        /* Logo Styling */
+        .zra-logo {
+            height: auto;
+            width: 200px; /* Adjust this width based on the actual logo file size */
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .header-meta {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .category-tag {
+            background-color: #e8f5e9;
+            color: #006400;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .date-tag {
+            font-size: 0.85rem;
+            color: #777;
+        }
+
+        h1 {
+            margin-top: 10px;
+            font-size: 1.8rem;
+            color: #1a1a1a;
+            line-height: 1.3;
+            font-weight: 700;
+        }
+
+        /* --- Content Section --- */
+        .content p {
+            margin-bottom: 15px;
+            text-align: justify; /* Professional document alignment */
+        }
+
+        /* --- Key Details Box --- */
+        .details-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #006400; /* ZRA Green */
+            padding: 15px 20px;
+            margin: 25px 0;
+            font-size: 0.95rem;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .details-box p {
+            margin-bottom: 5px;
+            text-align: left;
+        }
+
+        /* --- Warning/Alert Section --- */
+        .warning-section {
+            background-color: #fff5f5;
+            border: 1px solid #fc8181;
+            color: #c53030;
+            padding: 20px;
+            border-radius: 6px;
+            margin-top: 30px;
+            font-weight: 500;
+        }
+
+        /* --- Footer/Sign-off --- */
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9rem;
+            color: #555;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .sign-off-block {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .role {
+            font-weight: 800;
+            color: #000;
+            margin-top: 5px;
+        }
+        
+        .org-name {
+            color: #006400;
+            font-weight: 600;
+        }
+
+        /* --- Mobile Responsiveness --- */
+        @media (max-width: 600px) {
+            .press-release-card { padding: 20px; border-top-width: 4px; }
+            h1 { font-size: 1.4rem; }
+            .print-btn { position: static; width: 100%; justify-content: center; margin-bottom: 20px; }
+            footer { flex-direction: column; align-items: flex-start; gap: 20px; }
+            .zra-logo { width: 150px; }
+        }
+
+        /* --- PRINT MODE CONFIGURATION --- */
+        @media print {
+            body { background-color: white; padding: 0; }
+            .press-release-card { box-shadow: none; border: none; width: 100%; max-width: 100%; padding: 0; margin: 0; }
+            .print-btn { display: none !important; }
+            .warning-section { border: 2px solid #000; color: #000; }
+            .category-tag { border: 1px solid #000; color: #000; }
+            /* Ensure logo prints in high quality */
+            .zra-logo { -webkit-print-color-adjust: exact; }
+        }
+    </style>
+</head>
+<body>
+
+    <article class="press-release-card">
+        <button class="print-btn" onclick="window.print()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+            Print Statement
+        </button>
+
+        <header>
+            <img src="https://placehold.co/400x150/FFFFFF/006400?text=ZRA+LOGO&font=playfair" alt="Zambia Revenue Authority Logo" class="zra-logo">
+
+            <div class="header-meta">
+                <span class="category-tag">Press Release</span>
+                <span class="date-tag">Immediate Release</span>
+            </div>
+            
+            <h1>800 Cases of Cigarettes Worth K7.8 Million in Revenue Seized</h1>
+        </header>
+
+        <div class="content">
+            <p><strong>LUSAKA</strong> — The Zambia Revenue Authority (ZRA) has intercepted a truck with 800 cases of smuggled Vikings Cigarettes resulting in a prevented revenue loss of <strong>K7.8 million</strong>.</p>
+
+            <div class="details-box">
+                <p><strong>Registration:</strong> LZ 46 TN GP</p>
+                <p><strong>Route:</strong> South Africa &rarr; Chirundu &rarr; DRC (Declared)</p>
+                <p><strong>Declaration:</strong> Assorted household items (False)</p>
+            </div>
+
+            <p>The goods were on a truck with registration number LZ 46 TN GP en route from South Africa, transiting through Chirundu, and destined for the Democratic Republic of Congo. The truck had been declared as carrying assorted household items in transit.</p>
+            
+            <p>However, a trail by vigilant Zambia Revenue Authority officers followed the vehicle to a warehouse in Lusaka's Garden House where the offloading was scheduled.</p>
+            
+            <p>An inspection conducted at the warehouse discovered boxes of Vikings cigarettes concealed within the consignment. Following the discovery, the warehouse was secured and sealed. The truck, together with the consignment, was subsequently seized.</p>
+
+            <div class="warning-section">
+                <p>The Zambia Revenue Authority would like to remind importers and transporters involved in similar schemes that they risk having their goods and trucks seized and forfeited to the state as well as face prosecution in the Courts of Law.</p>
+                <p style="margin-bottom: 0;">By taking decisive action against these fraudulent activities, ZRA aims to promote legitimate trade. All importers are encouraged to make correct declarations of goods being imported.</p>
+            </div>
+            
+            <p style="margin-top: 20px; font-size: 0.9rem; color: #555;">
+                <em>Further, the general public and transporters are encouraged to report any potential cases of smuggling to the Zambia Revenue Authority.</em>
+            </p>
+        </div>
+
+        <footer>
+            <div class="sign-off-block">
+                <span>Issued by:</span>
+                <span class="role">Oliver Nzala</span>
+                <span class="org-name">ZRA Corporate Communications Manager</span>
+            </div>
+        </footer>
+    </article>
+
+</body>
+</html>
