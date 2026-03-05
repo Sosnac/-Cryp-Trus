@@ -57,7 +57,8 @@ I'm David — a Certified Ethical Hacker (CEH) focused on offensive and defensiv
 
 ## 🔗 Links
 # CrypTrus2.0-
-Advanced Cryptographic Tool
+**Advanced Cryptographic Tool**
+
 🔥⚡ [View Repository](https://github.com/Sosnac/CryPTrus2.0-)
 
 
