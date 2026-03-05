@@ -44,9 +44,13 @@ I'm David — a Certified Ethical Hacker (CEH) focused on offensive and defensiv
 ---
 
 ## 📫 Contact & Socials
-Open to work: Available Soon  
+
+**Open to work**: Available Soon 
+ 
 **Phone**: +260951701106
+
 **Email**: sosnacdavid@gmail.com
+
 **Facebook**: David Sosnac 
 
 ---
