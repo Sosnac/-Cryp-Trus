@@ -53,7 +53,7 @@ Open to work: Available Soon
 
 ## 🔗 Links
 # CrypTrus2.0 - IoT Information Gathering Tool
-🔥⚡ [View Repository](https://github.com/DavidSosnac/CryPTrus2.0-)
+🔥⚡ [View Repository](https://github.com/Sosnac/CryPTrus2.0-)
 
 
 ---
