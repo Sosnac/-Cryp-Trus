@@ -38,21 +38,21 @@ I'm David — a Certified Ethical Hacker (CEH) focused on offensive and defensiv
 
 ## 🌟 Featured Projects
 
-- https://github.com/-Cryp-Trus — IoT pentest toolkit — Highlight: automated discovery reduced triage time by 40% and this help security researchers operate at super human speed.
+- https://github.com/CryPTrus2.0- Advanced Cryptography Project 
 
 
 ---
 
 ## 📫 Contact & Socials
 Open to work: Available Soon  
-- Phone: +260951701106
-- Email: sosnacdavid@gmail.com
-- Facebook: David Sosnac 
+**Phone**: +260951701106
+**Email**: sosnacdavid@gmail.com
+**Facebook**: David Sosnac 
 
 ---
 
 ## 🔗 Links
-# CrypTrus2.0 - IoT Information Gathering Tool
+# CrypTrus2.0- - Cryptographic Tool
 🔥⚡ [View Repository](https://github.com/Sosnac/CryPTrus2.0-)
 
 
