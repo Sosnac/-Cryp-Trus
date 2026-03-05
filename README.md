@@ -52,7 +52,8 @@ Open to work: Available Soon
 ---
 
 ## 🔗 Links
-# CrypTrus2.0- - Cryptographic Tool
+# CrypTrus2.0-
+Advanced Cryptographic Tool
 🔥⚡ [View Repository](https://github.com/Sosnac/CryPTrus2.0-)
 
 
