@@ -38,7 +38,7 @@ I'm David — a Certified Ethical Hacker (CEH) focused on offensive and defensiv
 
 ## 🌟 Featured Projects
 
-- https://github.com/CryPTrus2.0- Advanced Cryptography Project 
+- https://github.com/CryPTrus2.0- CryPTrus2.0- is an advanced cryptography project that provides users with secure communication tools and intuitive encryption functionalities. It aims to simplify the encryption process while ensuring that the highest standards of security are maintained.
 
 
 ---
